@@ -36,3 +36,9 @@
 .app__postRight {
   margin-left: 20px;
 }
+
+@media only screen and (max-width: 767px) {
+  .app__postRight {
+    display: none;
+  }
+}
