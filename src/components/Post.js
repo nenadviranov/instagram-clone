@@ -40,12 +40,12 @@ function Post({usename, caption, imageUrl, postId, user}) {
 
     return (
         <div className="post">
-                <div className="post__header">
-                <Avatar
+            <div className="post__header">
+                <Avatar 
                     className="post__avatar"
                     alt="neno"
-                    src="/static/images/avatar/1.jpg"
-                />
+                >   {usename.slice(0, 1).toLowerCase()}
+                </Avatar>
                 <h3>{usename}</h3>
             </div>
 
